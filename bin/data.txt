@@ -1,0 +1,3 @@
+sparkContext.wholeTextFiles() reads a text file into PairedRDD of type RDD[(String,String)] with the key being the file path and value being contents of the file. This method also takes the path as an argument and optionally takes a number of partitions as the second argument.
+
+Let’s see a similar example with wholeTextFiles() method.
